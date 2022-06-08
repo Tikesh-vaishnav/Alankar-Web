@@ -1,0 +1,45 @@
+*{
+    margin: auto;
+    padding: auto;
+    background-color: #DED2D9;
+
+}
+
+.border{
+    background-color: #cf527b;
+    height: 16vh; 
+   
+}
+#up{
+   
+    top: 500px;
+}
+
+.lefthalf{
+    width: 55vw;
+    float: left;
+    margin: 2%;
+    
+}
+
+.img1{
+    width: 55vw;
+    /* border: solid #cf527b; */
+}
+
+.logo1{
+    position: absolute;
+    width: 225px;
+    height: 228px;
+    top: 48px;
+    right: 160px;
+
+}
+
+.righthalf{
+    width: 40%;
+    height: 40px;
+    float: right;
+    
+}
+
