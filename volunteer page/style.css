@@ -7,7 +7,8 @@
 
 .border{
     background-color: #cf527b;
-    height: 16vh; 
+    height: 80px; 
+    width: 60vw;
    
 }
 #up{
@@ -23,7 +24,8 @@
 }
 
 .img1{
-    width: 55vw;
+    width: 60vw;
+    height: 550px;
     /* border: solid #cf527b; */
 }
 
@@ -37,11 +39,10 @@
 }
 
 .righthalf{
-    width: 40%;
-    height: 40px;
+    width: 40%;   
     float: right; 
     align-items: center;
-    overflow: visible;
+  
     
 
 }
@@ -53,7 +54,8 @@ h1, h2, h3, h4, h5, h6, a {
     margin: auto;
     max-width:500px;
     margin-top: 52%;
-    padding: 20px;
+    padding: 5px;
+    
     
   }
   .login-header {
@@ -64,10 +66,21 @@ h1, h2, h3, h4, h5, h6, a {
   }
 
   
-  .login-header h1 {
-    
+  .google_btn{
+        border:2px solid #110c0c;
+        width:83%; 
+        align-items: center;
+        border: 2px solid #fff1f1;
+        border-radius: 8px;
+         color: #828282;
+        font-family: 'Ubuntu', sans-serif;
+        cursor:pointer;
+        display: flex;
      }
-  
+     .google{
+       margin: 10px 20px 10px 100px;
+     }
+
    .login-form {
     align-items: center;
     
@@ -114,8 +127,16 @@ h1, h2, h3, h4, h5, h6, a {
     cursor:pointer;
   }
   .sign-up{
-    color:#f2f2f2;
-    margin-left:-70%;
+    color:#7F265B;
     cursor:pointer;
     text-decoration:underline;
+    font-weight: 20;
   } 
+
+  .footer1{
+     color: #737272; 
+     margin: 20px;
+     font-size: 20px;
+     font-weight: 10;
+    
+  }
