@@ -9,11 +9,21 @@
     background-color: #cf527b;
     height: 80px; 
     width: 60vw;
-   
+    
+    
+    
 }
 #up{
-   
+    text-align: center;
     top: 500px;
+    font-size:375%
+    
+}
+
+#down{ 
+    text-align: center;
+    font-size:375%
+    
 }
 
 .lefthalf{
@@ -26,6 +36,7 @@
 .img1{
     width: 60vw;
     height: 550px;
+    vertical-align: bottom;
     /* border: solid #cf527b; */
 }
 
@@ -34,7 +45,7 @@
     width: 200px;
     height: 202px;
     top: 48px;
-    right: 160px;
+    right: 205px;
 
 }
 
