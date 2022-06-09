@@ -29,8 +29,8 @@
 
 .logo1{
     position: absolute;
-    width: 225px;
-    height: 228px;
+    width: 200px;
+    height: 202px;
     top: 48px;
     right: 160px;
 
@@ -39,7 +39,83 @@
 .righthalf{
     width: 40%;
     height: 40px;
-    float: right;
+    float: right; 
+    align-items: center;
+    overflow: visible;
     
+
 }
 
+h1, h2, h3, h4, h5, h6, a {
+    margin:0; padding:0;
+  }
+  .login {
+    margin: auto;
+    max-width:500px;
+    margin-top: 52%;
+    padding: 20px;
+    
+  }
+  .login-header {
+    color:rgb(19, 15, 15);
+    text-align:center;
+    margin: 2%;
+    
+  }
+
+  
+  .login-header h1 {
+    
+     }
+  
+   .login-form {
+    align-items: center;
+    
+  }
+
+  
+  .login-form h3 {
+    text-align:left;
+    margin-left:40px;
+    color:rgb(12, 7, 7);
+  }
+  
+  .login-form {
+    box-sizing:border-box;
+    padding-top:15px;
+      padding-bottom:10%;
+    margin:5% auto;
+    text-align:center;
+  }
+
+  .login input[type="text"],
+  .login input[type="password"] {
+    max-width:400px;
+      width: 80%;
+    line-height:3em;
+    font-family: 'Ubuntu', sans-serif;
+    margin:1em 2em;
+    border-radius:5px;
+    border:1px solid #110c0c;
+    outline:none;
+    padding-left:10px;
+  }
+  .login-form input[type="button"] {
+    height:46px;
+    width:83%;
+    font-size: large;
+    font-weight: bold;
+    background:#7F265B;
+    border:  #ffe3e3;
+    border-radius:10px;
+    color: rgb(249, 226, 226);
+    text-transform:uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    cursor:pointer;
+  }
+  .sign-up{
+    color:#f2f2f2;
+    margin-left:-70%;
+    cursor:pointer;
+    text-decoration:underline;
+  } 
