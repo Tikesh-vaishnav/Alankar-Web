@@ -1,0 +1,154 @@
+*{
+    margin: auto;
+    padding: auto;
+    background-color: #DED2D9;
+
+}
+
+.border{
+    background-color: #cf527b;
+    height: 80px; 
+    width: 60vw;
+    
+    
+    
+}
+#up{
+    text-align: center;
+    top: 500px;
+    font-size:375%
+    
+}
+
+#down{ 
+    text-align: center;
+    font-size:375%
+    
+}
+
+.lefthalf{
+    width: 55vw;
+    float: left;
+    margin: 2%;
+    
+}
+
+.image-7{
+    width: 60vw;
+    height: 550px;
+    vertical-align: bottom;
+    
+    /* border: solid #cf527b; */
+}
+
+.logo1{
+    position: absolute;
+    width: 200px;
+    height: 202px;
+    top: 48px;
+    right: 240px;
+
+}
+
+.righthalf{
+    width: 40%;   
+    float: right; 
+    align-items: center;
+  
+    
+
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    margin:0; padding:0;
+  }
+  .login {
+    margin: auto;
+    max-width:500px;
+    margin-top: 52%;
+    padding: 5px;
+    
+    
+  }
+  .login-header {
+    color:rgb(19, 15, 15);
+    text-align:center;
+    margin: 2%;
+    
+  }
+
+  
+  .google_btn{
+        border:2px solid #110c0c;
+        width:83%; 
+        align-items: center;
+        border: 2px solid #fff1f1;
+        border-radius: 8px;
+         color: #828282;
+        font-family: 'Ubuntu', sans-serif;
+        cursor:pointer;
+        display: flex;
+     }
+     .google{
+       margin: 10px 20px 10px 100px;
+     }
+
+   .login-form {
+    align-items: center;
+    
+  }
+
+  
+  .login-form h3 {
+    text-align:left;
+    margin-left:40px;
+    color:rgb(12, 7, 7);
+  }
+  
+  .login-form {
+    box-sizing:border-box;
+    padding-top:15px;
+      padding-bottom:10%;
+    margin:5% auto;
+    text-align:center;
+  }
+
+  .login input[type="text"],
+  .login input[type="password"] {
+    max-width:400px;
+      width: 80%;
+    line-height:3em;
+    font-family: 'Ubuntu', sans-serif;
+    margin:1em 2em;
+    border-radius:5px;
+    border:1px solid #110c0c;
+    outline:none;
+    padding-left:10px;
+  }
+  .login-form input[type="button"] {
+    height:46px;
+    width:83%;
+    font-size: large;
+    font-weight: bold;
+    background:#7F265B;
+    border:  #ffe3e3;
+    border-radius:10px;
+    color: rgb(249, 226, 226);
+    text-transform:uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    cursor:pointer;
+  }
+  .sign-up{
+    color:#7F265B;
+    cursor:pointer;
+    text-decoration:underline;
+    font-weight: 20;
+  } 
+
+  .footer1{
+     color: #737272; 
+     margin: 20px;
+     font-size: 20px;
+     font-weight: 10;
+    
+  }
