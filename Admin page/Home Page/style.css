@@ -1,0 +1,17 @@
+*{
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  background: #C57E94;
+}
+
+.img{
+  position: absolute;
+width: 232.11px;
+height: 225px;
+left: 844px;
+top: 55px;
+
+background: url(AlankaarLogo.png);
+opacity: 0.85;
+}
