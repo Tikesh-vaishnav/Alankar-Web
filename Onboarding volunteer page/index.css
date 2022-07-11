@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.element{
+    display: flex;
+}
+
+.lefthalf{ 
+   
+    background-color: black;
+    width: 25%; 
+
+    align-items: center;
+    text-align: center;
+}
+
+.righthalf{
+   background-color: #7F265B;
+   width: 75%;
+   text-align: center;
+   color: aliceblue;
+   height: 100vh;
+
+}
+
+.para1{
+    width: 50px;
+}
+
+#logo1{
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+
+}
+
+.sign-up{
+    color:#4B72C2;
+    cursor:pointer;
+    text-decoration:underline;
+    font-weight: 20;
+  } 
+
+.footer1{
+    color: #7F7F7F; 
+    margin: 20px;
+    font-size: 15px;
+    font-weight: 10;
+    
+ }
+
+ .contact{
+    background-color: #7F7F7F;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 14px;
+    margin: 28px;
+    width: 230px;
+    position: absolute;
+    bottom: 2px;
+ }
+
+ .login-form{
+    background:#7F265B;
+    border-radius:10px;
+    color: rgb(232, 214, 214);
+    font-family: 'Ubuntu', sans-serif;
+    cursor:pointer;
+  }
+
+  .login-form input[type="text"], 
+  .login-form input[type="email"],
+  .login-form input[type="Number"],.login-form input[type="date"] {
+    max-width:500px;
+    color: antiquewhite;
+    background-color: #110c0c;
+    width: 90%;
+    line-height:2.5em;
+    font-family: 'Ubuntu', sans-serif;
+    margin:1em 2em;
+    border-radius:5px;
+    border:1px solid #110c0c;
+    padding-left:10px;
+  }
+.login-form input[type="date"] {
+    background-color: rgb(71, 75, 79);
+}
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(209, 186, 186);
+    opacity: 0.8; 
+  }
+
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(209, 186, 186);
+  }
+  
+  .gen label{
+   margin-right: 20px;
+   padding: auto;
+   
+  }
+  
+  .gen{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    height: 50px;
+    align-items: center;
+  }
+
+  .gen label[for = "sex"]{
+    padding: 0%;
+    margin: 0%;
+    float: left;
+    font-size: larger;
+    font-weight: bold;
+  }
+
+  .place{
+    text-align: left;
+   width: 500px;
+    margin: auto;
+    margin-bottom:15px ;
+  }
+
+  .place input{
+    margin-left: 20px;
+  }
+
+  .upload{
+    width: 500px;
+    margin: auto;
+    text-align: left;
+  }
