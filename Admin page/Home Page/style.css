@@ -1,9 +1,8 @@
-*{
+/* *{
   position: relative;
-  width: 1920px;
-  height: 1080px;
   background: #C57E94;
-}
+} */
+/* 
 
 .img1{
   position: absolute;
@@ -15,3 +14,308 @@ top: 55px;
 background: url(AlankaarLogo.png);
 opacity: 0.85;
 }
+
+
+@import url("https://fonts.googleapis.com/css? family=Poppins:400"); 
+.title {
+  height: 83px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 625px; 
+} 
+.valign-text-middle { display: flex; flex-direction: column; justify-content: center; }  */
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400");
+:root {
+  --black-2: rgba(0, 0, 0, 0.051);
+  --black: rgba(0, 0, 0, 1);
+  --fuscous-gray: rgba(81, 81, 81, 1);
+  --puce: rgba(197, 126, 148, 1);
+  --white: rgba(255, 255, 255, 0.698);
+  --white2: rgba(255, 255, 255, 1);
+ 
+  --font-size-m: 15px;
+  --font-size-l: 20px;
+  --font-size-xl: 25px;
+  --font-size-xxl: 35px;
+  --font-size-xxxl: 50px;
+  --font-size-xxxxl: 55px;
+ 
+  --font-family-poppins: "Poppins";
+  --font-family-poppins-bold: "Poppins-Bold";
+}
+ 
+/* Classes */
+ 
+.poppins-bold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-poppins-bold);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  font-style: normal;
+}
+.poppins-normal-fuscous-gray-55px {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxxl);
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-normal-fuscous-gray-50px {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxl);
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-bold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-weight: 700;
+  font-style: normal;
+}
+.poppins-normal-fuscous-gray-35px {
+  color: var(--fuscous-gray);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-normal-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-normal-black-15px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  font-style: normal;
+}
+ 
+.view-and-onboarding {
+  align-items: center;
+  background-color: #c57e94;
+  display: flex;
+  flex-direction: column;
+  height: 1080px;
+  padding: 55px 105px;
+  width: 1920px;
+}
+ 
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+ 
+.overlap-group-container {
+  align-items: center;
+  align-self: flex-end;
+  display: flex;
+  margin-top: 14px;
+  min-width: 1709px;
+}
+ 
+.overlap-group3 {
+  height: 669px;
+  position: relative;
+  width: 735px;
+}
+ 
+.onboard-area {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 55px;
+  min-height: 466px;
+  position: absolute;
+  top: 0;
+  width: 627px;
+}
+ 
+.onboarding-buttons {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-top: 148px;
+  min-height: 235px;
+  width: 625px;
+}
+ 
+.onboard-volunteer:hover {
+  transform: scale(1.1);
+}
+ 
+.onboard-volunteer {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-top: 65px;
+  min-width: 627px;
+  transition: all 0.2s ease;
+}
+ 
+.overlap-group {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 22px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 85px;
+  min-width: 625px;
+  padding: 5px 164px;
+}
+ 
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.volunteer {
+  height: 75px;
+  letter-spacing: 0;
+  mix-blend-mode: darken;
+  text-align: center;
+  width: 297px;
+}
+ 
+.x-student:hover {
+  transform: scale(1.1);
+}
+ 
+.x-student {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  min-width: 627px;
+  transition: all 0.2s ease;
+}
+ 
+.overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 22px;
+  box-shadow: 0px 4px 4px #00000040;
+  display: flex;
+  height: 85px;
+  margin-top: 0;
+  min-width: 625px;
+  padding: 5px 37.4px;
+}
+ 
+.student {
+  height: 75px;
+  letter-spacing: 0;
+  mix-blend-mode: darken;
+  text-align: center;
+  width: 550px;
+}
+ 
+.title {
+  height: 83px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 625px;
+}
+ 
+.image-1 {
+  height: 560px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 109px;
+  width: 735px;
+}
+ 
+.overlap-group2 {
+  height: 658px;
+  margin-left: 239px;
+  margin-top: 3px;
+  position: relative;
+  width: 735px;
+}
+ 
+.view-area {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 54px;
+  min-height: 459px;
+  position: absolute;
+  top: 0;
+  width: 628px;
+}
+ 
+.view-buttons {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 157px;
+  min-height: 235px;
+  width: 626px;
+}
+ 
+.view-volunteers:hover {
+  transform: scale(1.1);
+}
+ 
+.view-volunteers {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 1px;
+  margin-top: 65px;
+  min-width: 627px;
+  transition: all 0.2s ease;
+}
+ 
+.view {
+  height: 67px;
+  letter-spacing: 0;
+  margin-left: 1px;
+  text-align: center;
+  width: 625px;
+}
+ 
+.image-2 {
+  height: 560px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 98px;
+  width: 735px;
+}
+ 
+.alankaar-logo {
+  height: 225px;
+  margin-left: 0.11px;
+  object-fit: cover;
+  width: 232px;
+  /* margin: auto; */
+}
+ 
+.alankaar-india-trust {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-weight: 400;
+  height: 60px;
+  letter-spacing: 0;
+  margin-right: 0.68px;
+  margin-top: 2px;
+  opacity: 0.4;
+  text-align: center;
+  width: 505px;
+  
+}
+ 
