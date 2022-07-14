@@ -53,7 +53,7 @@
   font-weight: 400;
   height: 19px;
   letter-spacing: 0;
-  margin-left: 100px;
+  margin-left: 0px;
   margin-top: 47px;
   text-align: center;
   width: 340px;
@@ -264,7 +264,7 @@
  
 .flex-row {
   align-items: flex-start;
-  align-self: flex-end;
+/*   align-self: flex-end; */
   display: flex;
   min-width: 1705px;
 }
@@ -294,7 +294,7 @@
   background-color: #edeef2;
   border-radius: 12px;
   display: flex;
-  height: 40px;
+/*   height: 40px; */
   overflow: hidden;
   padding: 9px 12px;
   width: 974px;
