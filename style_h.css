@@ -108,7 +108,7 @@ html {
 	display: grid;
 	place-items: center;
 	text-align: center;
-	background-image: url(/Alankar-Web/divbg.jpg);
+	background-image: url(./divbg.jpg);
 	background-size: cover;
 	background-position: center center;
 	position: relative;
