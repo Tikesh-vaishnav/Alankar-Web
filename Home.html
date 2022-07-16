@@ -26,13 +26,30 @@
         <li><a href="/Alankar-Web/Volunteer page/index_v.html">Volunteer</a></li>
       </ul>
     </div>
-    <div class="banner" id="home">
+    <!-- <div class="banner" id="home">
       <div class="banner-text">
-        <!-- <h2>Creative Agency</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> -->
         <a href="/Alankar-Web/Onboarding volunteer page/index.html">Signup</a>
       </div>
+    </div> -->
+
+    <div class="banner" id="home">
+
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Signup</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="/Alankar-Web/Student Registration form/index.html">Student</a>
+          <a href="/Alankar-Web/Onboarding volunteer page/index.html">Volunteer</a>
+        </div>
+      </div>
     </div>
+
+    <!-- <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Signup</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="/Alankar-Web/Student Registration form/index.html">Student</a>
+        <a href="/Alankar-Web/Onboarding volunteer page/index.html">Volunteer</a>
+      </div>
+    </div> -->
 
     <div class="about" id="about">
       <div class="section-header">
@@ -119,5 +136,25 @@
         }
       });
     </script>
+    <script>
+      /* When the user clicks on the button, 
+      toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      </script>
   </body>
 </html>
