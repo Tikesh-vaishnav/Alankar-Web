@@ -49,6 +49,7 @@ html {
 	color: #fff;
 }
 
+
 /* Dropdown Button */
 .dropbtn {
 	/* background-color: #3498DB;
@@ -160,7 +161,7 @@ html {
 /* about */
 
 .about {
-	padding: 60px 0;
+	padding: 35px 0;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -174,10 +175,14 @@ html {
 	text-align: center;
 }
 .section-header p {
-	width: 50%;
+	width: 77%;
 	margin: auto;
-	text-align: center;
-	line-height: 1.9;
+	margin-top: 10px;
+	text-align: justify;
+	line-height: 1.7;
+	/* column-count: 2;
+	column-gap: 17px; */
+	font-size: 17px;
 }
 .single-about img {
 	width: 40%;

@@ -14,7 +14,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style_h.css" />
-    <link rel="icon" type="image/x-icon" href="./Logo.png">
+    <link rel="icon" type="image/x-icon" href="./Logo.png" />
   </head>
   <body>
     <div class="header">
@@ -33,7 +33,6 @@
     </div> -->
 
     <div class="banner" id="home">
-
       <div class="dropdown">
         <button onclick="myFunction()" class="dropbtn">Signup</button>
         <div id="myDropdown" class="dropdown-content">
@@ -55,9 +54,37 @@
       <div class="section-header">
         <h2>About US</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta qui,
-          ipsa sed expedita dignissimos illum!
+          The initiative was started in March 2018 with a team of 8 working
+          professionals and 8 students. The aim was simply to help and educate
+          the underprivileged. Primarily, our first teaching centre was in
+          Sector 14, Gurgoan. After many efforts we got a positive response from
+          the children’s parents. The parents after conferring with their
+          children and assessing their results quoted:
         </p>
+        <p style="text-align: center; font-style: italic">
+          “If we had not joined Alankaar a few months back, passing in the final
+          exam itself would have been difficult.”
+        </p>
+        <p>
+          The above line was the only source of motivation while pushing
+          through the lack of time, volunteers and resources. Through that ray
+          of hope, volunteers slowly began to show up and with resonance to that
+          we were able to expand; we opened to new centeres in Gurgaon (Sector 15 &
+          45). Not only were the children passing their final exams but many were scoring above 90%. The whole perspective of our team took a paradigm shift
+          when the focus extended to the overall development of the children.
+          Thus, came various events, activities and festive celebrations.
+        </p>
+        <p>
+           Now, with all efforts struck in, we are successfully running the NGO
+          with 150+ students and 100 odd volunteers. Alankaar immensely
+          appreciates the society for the donation of time to help and educate
+          our tender budding minds. We not only got contributions from our
+          locals, but the support has been worldwide. These contributions from numerous people further helped us in necessary resources to the underprivileged children.
+        </p>
+        </p>
+      </div>
+      <div class="spread-info">
+        <img src="./banner_info.jpeg" alt="">
       </div>
       <div class="about-content">
         <div class="single-about">
@@ -143,18 +170,18 @@
         document.getElementById("myDropdown").classList.toggle("show");
       }
       // Close the dropdown if the user clicks outside of it
-      window.onclick = function(event) {
-        if (!event.target.matches('.dropbtn')) {
+      window.onclick = function (event) {
+        if (!event.target.matches(".dropbtn")) {
           var dropdowns = document.getElementsByClassName("dropdown-content");
           var i;
           for (i = 0; i < dropdowns.length; i++) {
             var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-              openDropdown.classList.remove('show');
+            if (openDropdown.classList.contains("show")) {
+              openDropdown.classList.remove("show");
             }
           }
         }
-      }
-      </script>
+      };
+    </script>
   </body>
 </html>
