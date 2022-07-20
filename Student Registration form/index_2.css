@@ -121,13 +121,14 @@
   align-items: center;
 }
 
-.School label[for="sex"] {
+.School label[for="schoolc"] {
   padding: 0%;
   margin: 0%;
   float: left;
   font-size: larger;
   font-weight: bold;
 }
+
 
 .place {
   text-align: left;
