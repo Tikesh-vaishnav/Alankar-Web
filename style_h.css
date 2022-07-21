@@ -285,6 +285,10 @@ html {
 	text-transform: uppercase;
 }
 /* footer */
+.vl {
+	border-left: 6px solid rgb(255, 255, 255);
+    height: 6px;
+}
 
 footer {
 	background: #092c3d;

@@ -129,6 +129,27 @@
   font-weight: bold;
 }
 
+.Medium label {
+    margin-right: auto;
+    padding: auto;
+  }
+  
+  .Medium {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    height: 50px;
+    align-items: center;
+  }
+  
+  .Medium label[for="Med"] {
+    padding: 0%;
+    margin: 0%;
+    float: left;
+    font-size: larger;
+    font-weight: bold;
+  }
+
 
 .place {
   text-align: left;
