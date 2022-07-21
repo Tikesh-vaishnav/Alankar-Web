@@ -38,7 +38,7 @@
 
           <br />
           <div class="gen">
-            <label for="sex">sex</label>
+            <label for="gender">Gender:</label>
             <input type="radio" id="male" name="gender" value="male" />
             <label for="male">male</label>
             <input type="radio" id="female" name="gender" value="female" />
@@ -78,8 +78,17 @@
               Passport, etc.)
             </h3>
           </div>
-      
-          <img class="image1" src="image-1@2x.png" />
+          <br>
+          <input type="file" id="myFile">
+          <button onclick="myFunction()">Upload</button>
+
+          <script>
+          function myFunction() {
+            var x = document.getElementById("myFile");
+            x.disabled = true;
+          }
+          </script>
+
         </div>
 
           <div class="overlap ">

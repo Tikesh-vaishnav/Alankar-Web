@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index_2.css" />
+    <link rel="stylesheet" href="index.css" />
     <link rel="icon" type="image/x-icon" href="../Logo.png">
     <title>Onboarding Student page</title>
   </head>
@@ -33,11 +33,12 @@
           <input type="text" placeholder="Current School Name" />
           <br />
           <div class="School">
-            <label for="schoolc">School Category</label>
-            <input type="radio" id="Government" name="Schoold" value="Government" />
+            <label for="school">School Category</label>
+            <input type="radio" id="Government" name="School" value="Government" />
             <label for="Government">Government</label>
-            <input type="radio" id="Private" name="Schoold" value="Private" />
+            <input type="radio" id="Private" name="School" value="Private" />
             <label for="Private">Private</label>
+
         </div>
         <div class="login-form margin2">
              <div class="Medium">
@@ -51,6 +52,7 @@
                 
             </div>
          </div>
+
           <div class="login-form ">
             <input type="Address" placeholder="Address" />
           </div>
@@ -60,8 +62,17 @@
               Please upload Signature with date. (Accepted Formats - jpg, jpeg, png)
             </h3>
           </div>
-      
-          <img class="image1" src="image-1@2x.png" />
+          
+          <br>
+          <input type="file" id="myFile">
+          <button onclick="myFunction()">Upload</button>
+
+          <script>
+          function myFunction() {
+            var x = document.getElementById("myFile");
+            x.disabled = true;
+          }
+          </script>
         </div>
 
           <div class="overlap ">
