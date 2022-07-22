@@ -254,7 +254,7 @@ html {
 	padding: 10px 0;
 	background: #165153;
 	text-align: center;
-	line-height: 70px;
+	/* line-height: 70px; */
 	color: #fff;
 }
 
@@ -286,8 +286,11 @@ html {
 }
 /* footer */
 .vl {
-	border-left: 6px solid rgb(255, 255, 255);
-    height: 6px;
+	border-left: 2px solid rgb(255, 255, 255);
+    height: 30px;
+	margin-bottom: -6px;
+	/* padding: 3px; */
+	
 }
 
 footer {
